@@ -5,11 +5,13 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { TableComponent } from './components/table/table.component';
 import { MaterialModule } from './material.module';
+import { TableTwoComponent } from './components/table-two/table-two.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    TableComponent
+    TableComponent,
+    TableTwoComponent
   ],
   imports: [
     BrowserModule,
